@@ -1,11 +1,13 @@
 
 //I think this will work:
-/* var dashboard = document.getElementById('dashboard');
-window.onload = function(){
-dashboard.addEventListener("click", function(e){
-  console.log(e.target);
-})
-} */
+/* 
+var dashboard = document.getElementById('dashboard');
+  window.onload = function(){
+    dashboard.addEventListener("click", function(e){
+      console.log(e.target);
+    })
+  } 
+*/
 //Tic Tac Toe Dawgs
 
 //2d array - each sub-array is a row
