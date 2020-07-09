@@ -1,13 +1,15 @@
 
 //I think this will work:
-/* 
-var dashboard = document.getElementById('dashboard');
+ 
+/* var dashboard = document.getElementById('dashboard');
   window.onload = function(){
     dashboard.addEventListener("click", function(e){
-      console.log(e.target);
+      if (e.target.innerText === ''){
+      e.target.innerText = 'X';
+      } else { e.target.innerText = ''};
     })
-  } 
-*/
+  }  */
+
 //Tic Tac Toe Dawgs
 
 //2d array - each sub-array is a row
