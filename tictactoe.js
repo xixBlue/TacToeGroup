@@ -1,9 +1,17 @@
+
+//I think this will work:
+/* var dashboard = document.getElementById('dashboard');
+window.onload = function(){
+dashboard.addEventListener("click", function(e){
+  console.log(e.target);
+})
+} */
 //Tic Tac Toe Dawgs
 
 //2d array - each sub-array is a row
 function createTheBoard() {
 
-    const boardHtml = document.getElementById('dashboard');
+   /*  const boardHtml = document.getElementById('dashboard');
     const rowsHtml = boardHtml.children;
     //const cellsHtml = rowsHtml.children;
     for (let i = 0; i < 3; i++) {
@@ -12,7 +20,9 @@ function createTheBoard() {
 
         }
       }
-    }
+    } */
+    
+
 
     //create board
     const boardArray = new Array(3);
