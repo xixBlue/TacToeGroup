@@ -20,3 +20,11 @@ git add -A
 git commit -m"first repo"
 git pull origin master
 git push origin master
+
+
+
+1. Re-Structure (proofread) Code
+2. make board look prettier/flashier - CSS & HTML
+  - H1 header
+  - sidebar (instructions - tic tac toe or specific to program)
+  - colors
