@@ -135,7 +135,7 @@ function makeTurn(row, column, player) {
     if (didIWin(boardArray, player)) {
 
       console.log('Winner winner chicken dinner: Player ' + player);
-      alert('Winner winner chicken dinner: Player' + player);
+      alert('Winner winner chicken dinner: Player ' + player);
       //call some function to reset board
       //boardArray = createTheBoard();
     } 
