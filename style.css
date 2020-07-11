@@ -6,6 +6,53 @@ table {
   border-collapse: collapse; border-spacing: 0;
 }
 
+/* Player Color Styling*/
+body {
+  display: grid;
+  grid-template-rows: 50px auto;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+}
+h1 {
+  grid-row: 1;
+  grid-column: 1 / 5;
+}
+.playerX {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  grid-row: 2;
+  grid-column: 1 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.playerO {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  grid-row: 2;
+  grid-column: 3 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.instructions {
+  margin-right: 10px;
+  border: 2px solid blue;
+  padding-left: 17px;
+  padding-top: 20px;
+  grid-row: 2;
+  grid-column: 4 / 5;
+}
+.dashboard {
+  grid-row: 2;
+  grid-column: 2 / 3;
+}
+
 #dashboard {
   padding: 0px;
   margin: 0 auto;

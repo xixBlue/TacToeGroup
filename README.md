@@ -25,6 +25,8 @@ git push origin master
 
 1. Re-Structure (proofread) Code
 2. make board look prettier/flashier - CSS & HTML
-  - H1 header
   - sidebar (instructions - tic tac toe or specific to program)
-  - colors
+  - make defualt banners better
+  - add reset to banners
+  - winner winner - apply banner colors for winner
+  - (both) players clicking same spot skips over player 
